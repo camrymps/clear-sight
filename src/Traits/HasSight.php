@@ -22,6 +22,8 @@ trait HasSight
 
             return $model->views()->save($view);
         }
+
+        return null;
     }
 
     /**
